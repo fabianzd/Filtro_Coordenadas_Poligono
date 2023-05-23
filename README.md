@@ -1,6 +1,6 @@
-# Información sobre la constante poligonoPococi
+# Información
 
-La constante `poligonoPococi` es una variable que almacena las coordenadas del cantón Pococí en forma de lista.
+La constante `poligonoCanton` es una variable que almacena las coordenadas del cantón que desea en forma de lista.
 
 ## Uso
 
