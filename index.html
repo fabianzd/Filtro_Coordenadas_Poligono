@@ -143,46 +143,12 @@
       ];
 
       const marcadores = [
-        {
-          nombre: "Kimberly",
-          coords: [10.3080941, -83.8108609],
-        },
-        {
-          nombre: "Farmacia Maxi Palí Guápiles",
-          coords: [10.2035916, -83.7837496],
-        },
-        {
-          nombre: "Farmacia Pococí S.A",
-          coords: [10.3610397, -83.7332214],
-        },
-        {
-          nombre: "Farmacia Atlántica",
-          coords: [10.2143231, -83.7910724],
-        },
-        {
-          nombre: "Farmacia Fichel Guapiles",
-          coords: [10.211459, -83.7889061],
-        },
-        {
-          nombre: "Farmacia Total",
-          coords: [10.2787104, -83.7852121],
-        },
-        {
-          nombre: "Macrobiótica La Central",
-          coords: [10.2145871, -83.7899768],
-        },
-        {
-          nombre: "Farmacia Clínica Del Caribe",
-          coords: [10.21619, -83.7908585],
-        },
-        {
-          nombre: "FARMACIA GENESIS CARIARI",
-          coords: [10.488088, -83.6135572],
-        },
-        {
-          nombre: "Farmacia Talamanca #3",
-          coords: [10.2099125, -83.6],
-        },
+      { nombre: "Restaurante Los Pavones", coords: [10.1223236, -83.6718371] },
+  { nombre: "Bar y chicahrronera que bueno", coords: [10.1636286, -83.8214769] },
+  { nombre: "Café Nativos", coords: [10.1207368, -83.6495828] },
+  { nombre: "Restaurante Bambú", coords: [10.1734474, -83.6113754] },
+  { nombre: "Bubba.", coords: [10.3615989, -83.7339085] },
+  { nombre: "Donde Richard", coords: [10.5429935, -83.5036063] }
       ];
 
       // Carga y muestra los mosaicos del proveedor de OpenStreetMap
@@ -194,18 +160,21 @@
 
       var polygon = L.polygon(poligonoCanton).addTo(map);
       const listaNombres = [];
+      const listaQueNoEstan = [];
 
       marcadores.forEach((marcador, index) => {
         let coords = marcador.coords;
         let marker = L.marker(coords);
-        if (isMarkerInsidePolygon(marker, polygon)){
-            marker.addTo(map);
-            marker.bindPopup(marcador.nombre).openPopup();
-            listaNombres.push(marcador.nombre);
+        if (isMarkerInsidePolygon(marker, polygon)) {
+          marker.addTo(map);
+          marker.bindPopup(marcador.nombre).openPopup();
+          listaNombres.push(marcador.nombre);
+        } else {
+          listaQueNoEstan.push(marcador.nombre);
         }
       });
-
-      console.log(listaNombres);
+      console.log("elemtnso dentro del poligoino: \n " + listaNombres);
+      console.log(listaQueNoEstan);
 
       function isMarkerInsidePolygon(marker, poly) {
         var inside = false;
@@ -231,7 +200,6 @@
 
         return inside;
       }
-      // Agrega un polígono con las coordenadas dadas
     </script>
   </body>
 </html>
