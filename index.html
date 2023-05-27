@@ -527,15 +527,6 @@
       let polygonRoxana = L.polygon(poligonoDistritoRoxana).addTo(map);
       polygonRoxana.setStyle({ fillColor: "#8f81f5 ", fillOpacity: 0.5 });
 
-      const listaNombres = [];
-      const listaQueNoEstan = [];
-      const listaDistritoGuapiles = [];
-      const listaDistritoRita = [];
-      const listaDistritoRoxana = [];
-      const listaDistritoCariari = [];
-      const listaDistritoColorado = [];
-      const listaDistritoJimenez = [];
-
       var fileInput = document.getElementById("myfile");
 
       fileInput.addEventListener("change", function (event) {
@@ -556,15 +547,27 @@
       // Carga y muestra los mosaicos del proveedor de OpenStreetMap
 
       const cargarMarcadores = (nuevaLista) => {
-        console.log('nuevaLista: ', nuevaLista);
+        const listaNombres = [];
+        const listaQueNoEstan = [];
+        const listaDistritoGuapiles = [];
+        const listaDistritoRita = [];
+        const listaDistritoRoxana = [];
+        const listaDistritoCariari = [];
+        const listaDistritoColorado = [];
+        const listaDistritoJimenez = [];
+
+        console.log("nuevaLista: ", nuevaLista);
 
         nuevaLista.forEach((marcador, index) => {
           let coords = [marcador.latitude, marcador.longitude];
           let marker = L.marker(coords);
+          let datos = { name: marcador.name, indice: index + 1 };
+
           if (isMarkerInsidePolygon(marker, polygon)) {
             marker.addTo(map);
             marker.bindPopup(marcador.name).openPopup();
-            listaNombres.push(marcador.name);
+
+            listaNombres.push(datos);
             if (isMarkerInsidePolygon(marker, polygonGuapiles)) {
               listaDistritoGuapiles.push(marcador.name);
             }
@@ -583,11 +586,12 @@
             if (isMarkerInsidePolygon(marker, polygonJimenez)) {
               listaDistritoJimenez.push(marcador.name);
             }
-          } else {  
-            listaQueNoEstan.push(marcador.name);
+          } else {
+            listaQueNoEstan.push(datos);
           }
         });
-        console.log("elemtnso dentro del poligoino: \n " + listaNombres);
+        console.log("elemtnso dentro del poligoino: \n");
+        console.log(listaNombres);
         console.log(
           "GUAPILES: \n" +
             listaDistritoGuapiles +
