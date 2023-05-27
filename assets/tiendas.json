@@ -120,18 +120,6 @@
     "type": "Clothing store"
   },
   {
-    "name": "TIENDA VIRTUAL VARIEDADES J0026A",
-    "address_1": "",
-    "address_2": "",
-    "website": "",
-    "rating": "",
-    "reviews_count": "",
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMhUWr6W6MP2U_o7xx7TThbODA3nnqq7HhOiy2Y",
-    "latitude": 8.3578905,
-    "longitude": -84.80865,
-    "type": "Clothing store"
-  },
-  {
     "name": "Underwear Angelica's S.A",
     "address_1": "Urbanización el Llano 75 Oeste 25Sur Limón Pococi",
     "address_2": 70205,
@@ -540,18 +528,6 @@
     "type": "Store"
   },
   {
-    "name": "Tienda de Belleza Bewitched",
-    "address_1": "",
-    "address_2": "",
-    "website": "mybewitchedbeauty.com",
-    "rating": "",
-    "reviews_count": "",
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN2HKm--5hBgyv9ynpwFK2mb9E4p6ASWbW3sbIV",
-    "latitude": 8.3578905,
-    "longitude": -84.80865,
-    "type": "General store"
-  },
-  {
     "name": "Nissi Jeans Costa Rica",
     "address_1": "75 Sur De La MUNICIPALIDAD DE POCOCI",
     "address_2": "Limón, Guápiles",
@@ -922,18 +898,6 @@
     "latitude": 10.2152864,
     "longitude": -83.7898941,
     "type": "Underwear store"
-  },
-  {
-    "name": "Importadora Monge",
-    "address_1": "3MM5+M8W",
-    "address_2": "Barrio La Zonita, Limón Province, Batán",
-    "website": "",
-    "rating": 3.4,
-    "reviews_count": 58,
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOWP8xZ0lt1Tdy1l1FRqYnqk6Mo6PT6iSfxExYt",
-    "latitude": 10.0842314,
-    "longitude": -83.3416739,
-    "type": "Store"
   },
   {
     "name": "Concentrados Mega",
@@ -1392,18 +1356,6 @@
     "type": "Grocery store"
   },
   {
-    "name": "Boutique Hogar",
-    "address_1": "Calle 7 avenida 2 Limón",
-    "address_2": "Limón, Centro",
-    "website": "boutiquehogar.weebly.com",
-    "rating": 4.5,
-    "reviews_count": 17,
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOQFacp9pUqMDfVcaYvyehTwXX4yM4aF9Ax6APW",
-    "latitude": 9.991972,
-    "longitude": -83.0318317,
-    "type": "Boutique"
-  },
-  {
     "name": "M Express Cariari",
     "address_1": "70205 Limón Cariari",
     "address_2": 70205,
@@ -1426,18 +1378,6 @@
     "latitude": 10.3631296,
     "longitude": -83.7337551,
     "type": "Store"
-  },
-  {
-    "name": "Aleska Boutique",
-    "address_1": "XXV9+8C6",
-    "address_2": "Limón Province, Limon",
-    "website": "",
-    "rating": 4.9,
-    "reviews_count": 14,
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPQc6ZqSG6vR94ajMjcGxProJO1-29FgqIVA5aY",
-    "latitude": 9.9932956,
-    "longitude": -83.0314996,
-    "type": "Clothing store"
   },
   {
     "name": "Super Lucky Cariari",
@@ -1908,30 +1848,6 @@
     "type": "Pawn shop"
   },
   {
-    "name": "Tienda RegalArte",
-    "address_1": "XVWH+9MJ",
-    "address_2": "C. 10",
-    "website": "",
-    "rating": "",
-    "reviews_count": "",
-    "thumbnail": "",
-    "latitude": 9.9959548,
-    "longitude": -84.1208718,
-    "type": "Home goods store"
-  },
-  {
-    "name": "T-Shirt Mania Limón - Camisetas Personalizadas",
-    "address_1": "La Alegría",
-    "address_2": "Limón, Siquirres",
-    "website": "",
-    "rating": 4.5,
-    "reviews_count": 11,
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOQ0Tk5TK-NsQ-d6NsPb3tYPNXJCP9xebqBU8Hk",
-    "latitude": 10.0906437,
-    "longitude": -83.6011419,
-    "type": "Custom t-shirt store"
-  },
-  {
     "name": "ALMACEN DON JULIO JIMENEZ #2 S.A",
     "address_1": "50 MTS ESTE DEL PARQUE DE JIMENEZ CENTRO",
     "address_2": "Limón, Jiménez",
@@ -1990,30 +1906,6 @@
     "latitude": 10.3610397,
     "longitude": -83.7332214,
     "type": "Pharmacy"
-  },
-  {
-    "name": "Super Diferente",
-    "address_1": "3FXW+3GF",
-    "address_2": "Limón Province, Siquirres",
-    "website": "",
-    "rating": 3.7,
-    "reviews_count": 54,
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMsQFdgrnVmUqq90VGL1dchySLfbTt2z3evNZJS",
-    "latitude": 10.0976948,
-    "longitude": -83.5037163,
-    "type": "Supermarket"
-  },
-  {
-    "name": "Tienda Lemon",
-    "address_1": 1000,
-    "address_2": "Centro Comercial del Sur",
-    "website": "",
-    "rating": "",
-    "reviews_count": "",
-    "thumbnail": "",
-    "latitude": 9.9174824,
-    "longitude": -84.0712234,
-    "type": "Clothing store"
   },
   {
     "name": "Empeños La Parada Cariari",
